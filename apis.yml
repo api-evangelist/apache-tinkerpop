@@ -1,0 +1,36 @@
+aid: apache-tinkerpop
+name: Apache TinkerPop
+description: >-
+  Apache TinkerPop is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP). It provides the Gremlin graph traversal language which works with any TinkerPop-enabled graph system.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Graph Database
+  - Graph Computing
+  - Gremlin
+  - OLTP
+  - OLAP
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-tinkerpop/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-tinkerpop:apache-tinkerpop-gremlin-api
+    name: Apache TinkerPop Gremlin API
+    description: >-
+      TinkerPop provides the Gremlin graph traversal language and API, Gremlin Server with REST and WebSocket endpoints, and client drivers in Java, Python (gremlinpython), JavaScript, .NET, and Go for graph database interactions.
+    humanURL: https://tinkerpop.apache.org/docs/current/reference/
+    tags:
+      - Gremlin
+      - REST
+      - WebSocket
+      - Graph
+    properties:
+      - type: Documentation
+        url: https://tinkerpop.apache.org/docs/current/reference/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
