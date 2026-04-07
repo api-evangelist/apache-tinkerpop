@@ -7,11 +7,11 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Graph Database
   - Graph Computing
+  - Graph Database
   - Gremlin
-  - OLTP
   - OLAP
+  - OLTP
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -24,10 +24,10 @@ apis:
       TinkerPop provides the Gremlin graph traversal language and API, Gremlin Server with REST and WebSocket endpoints, and client drivers in Java, Python (gremlinpython), JavaScript, .NET, and Go for graph database interactions.
     humanURL: https://tinkerpop.apache.org/docs/current/reference/
     tags:
+      - Graph
       - Gremlin
       - REST
       - WebSocket
-      - Graph
     properties:
       - type: Documentation
         url: https://tinkerpop.apache.org/docs/current/reference/
