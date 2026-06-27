@@ -59,13 +59,13 @@ apis:
     properties:
       - type: Documentation
         url: https://tinkerpop.apache.org/docs/current/reference/
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/gremlinpython/
         title: Python Gremlin SDK
-      - type: SDK
+      - type: SDKs
         url: https://search.maven.org/search?q=org.apache.tinkerpop
         title: Java Maven SDK
-      - type: SDK
+      - type: SDKs
         url: https://www.npmjs.com/package/gremlin
         title: JavaScript/Node.js SDK
 common:
