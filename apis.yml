@@ -69,6 +69,10 @@ apis:
         url: https://www.npmjs.com/package/gremlin
         title: JavaScript/Node.js SDK
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-tinkerpop-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-tinkerpop-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/tinkerpop
   - type: GitHubRepository
