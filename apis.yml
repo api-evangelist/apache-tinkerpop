@@ -81,6 +81,15 @@ apis:
         url: https://www.npmjs.com/package/gremlin
         title: JavaScript/Node.js SDK
 common:
+  - type: SecurityPolicy
+    url: https://github.com/apache/tinkerpop/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/tinkerpop/blob/master/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/tinkerpop/blob/master/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-tinkerpop-vulnerability-disclosure.yml
   - type: DomainSecurity
