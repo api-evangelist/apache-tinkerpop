@@ -102,6 +102,12 @@ apis:
         url: https://www.npmjs.com/package/gremlin
         title: JavaScript/Node.js SDK
 common:
+  - type: Plans
+    url: plans/apache-tinkerpop-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/apache-tinkerpop-rate-limits.yml
+  - type: FinOps
+    url: finops/apache-tinkerpop-finops.yml
   - type: Website
     url: https://www.apache.org/
   - type: SecurityPolicy
