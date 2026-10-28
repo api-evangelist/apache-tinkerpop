@@ -1,4 +1,4 @@
-# Apache TinkerPop (apache-tinkerpop)
+# Apache TinkerPop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,95 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache TinkerPop is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP). It provides the Gremlin graph traversal language working with Amazon Neptune, Azure Cosmos DB, JanusGraph, Neo4j, and 20+ other graph systems.
+Apache TinkerPop is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP). It provides the Gremlin graph traversal language which works with any TinkerPop-enabled graph system. TinkerPop abstracts the underlying graph database, allowing applications to work with Neo4j, Amazon Neptune, Azure Cosmos DB, JanusGraph, Amazon DynamoDB, and other graph databases using a single consistent API. It is maintained by the Apache Software Foundation.
 
-**URL:** [https://tinkerpop.apache.org/](https://tinkerpop.apache.org/)
+**Areas:** Graph Computing · Graph Database · Gremlin · OLAP · OLTP · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache TinkerPop on APIs.io
 
-## Tags:
+Everything profiled for Apache TinkerPop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-tinkerpop/](https://apis.io/providers/apache-tinkerpop/)** — or go straight to one of the APIs or properties below.
 
- - Graph Computing, Graph Database, Gremlin, OLAP, OLTP, Open Source
+### APIs (2)
 
-## Timestamps
+- [Apache TinkerPop Gremlin Server API](https://apis.io/apis/apache-tinkerpop/apache-tinkerpop-gremlin-server-api/) — The Gremlin Server provides WebSocket and HTTP endpoints for submitting Gremlin traversals to a remote graph database. The HTTP API accepts POST requests…
+- [Apache TinkerPop Gremlin Traversal API](https://apis.io/apis/apache-tinkerpop/apache-tinkerpop-gremlin-api/) — The Gremlin graph traversal language and API provide a functional, data-flow-based language for expressing complex graph queries and mutations. Gremlin…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache TinkerPop Gremlin Server API
-WebSocket and HTTP endpoints for submitting Gremlin traversals to a remote graph database with GraphBinary and GraphSON serialization.
+#### Security (2)
 
-**Human URL:** [https://tinkerpop.apache.org/docs/current/reference/#gremlin-server](https://tinkerpop.apache.org/docs/current/reference/#gremlin-server)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Tinkerpop Domain Security](https://apis.io/security/apache-tinkerpop/apache-tinkerpop-domain-security/)
+- [Apache Tinkerpop Vulnerability Disclosure](https://apis.io/security/apache-tinkerpop/apache-tinkerpop-vulnerability-disclosure/)
 
- - WebSocket, HTTP, Gremlin, Graph Database
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://tinkerpop.apache.org/docs/current/reference/#gremlin-server)
+- [Apache Tinkerpop Plans Pricing](https://apis.io/plans/apache-tinkerpop/apache-tinkerpop-plans-pricing/)
 
-### Apache TinkerPop Gremlin Traversal API
-The Gremlin functional graph traversal language for expressing complex graph queries and mutations with multi-language SDKs for Java, Python, JavaScript, Go, and .NET.
+#### Rate limits (1)
 
-**Human URL:** [https://tinkerpop.apache.org/docs/current/reference/](https://tinkerpop.apache.org/docs/current/reference/)
+Published request limits.
 
-#### Tags:
+- [Apache Tinkerpop Rate Limits](https://apis.io/rate-limits/apache-tinkerpop/apache-tinkerpop-rate-limits/)
 
- - Gremlin, Graph Traversal, Graph Database, Java, Python
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
+- [Apache Tinkerpop Finops](https://apis.io/finops/apache-tinkerpop/apache-tinkerpop-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://tinkerpop.apache.org/docs/current/reference/)
-- [Python Gremlin SDK](https://pypi.org/project/gremlinpython/)
-- [Java Maven SDK](https://search.maven.org/search?q=org.apache.tinkerpop)
-- [JavaScript/Node.js SDK](https://www.npmjs.com/package/gremlin)
-
-## Common Properties
-
-- [GitHubRepository](https://github.com/apache/tinkerpop)
-- [Documentation](https://tinkerpop.apache.org/docs/current/reference/)
-- [Portal](https://tinkerpop.apache.org/)
-- [GettingStarted](https://tinkerpop.apache.org/docs/current/tutorials/getting-started/)
-- [ReleaseNotes](https://github.com/apache/tinkerpop/releases)
+- [Getting started](https://tinkerpop.apache.org/docs/current/tutorials/getting-started/)
 - [Support](https://groups.google.com/g/gremlin-users)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Terms of service](https://www.apache.org/licenses/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Graph Database Abstraction | Single API working across Neo4j, JanusGraph, Amazon Neptune, Azure Cosmos DB, and 20+ graph systems. |
-| Gremlin Language | Expressive functional graph traversal language for both queries and mutations. |
-| OLAP Graph Processing | Bulk/analytical graph processing via SparkGraphComputer for large-scale graph algorithms. |
-| GraphBinary Serialization | Compact binary serialization format for efficient Gremlin traversal encoding. |
-| Gremlin Server | Standalone server hosting Gremlin traversal execution over WebSocket or HTTP. |
-| Multi-Language SDKs | Official Gremlin SDKs for Java, Python, JavaScript, Go, and .NET. |
+**Kin Score 30.1** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Knowledge Graphs | Build and query knowledge graphs for entity relationship modeling. |
-| Social Network Analysis | Traverse and analyze social graph relationships and influence patterns. |
-| Fraud Detection | Detect fraud rings and suspicious patterns via graph relationship traversal. |
-| Recommendation Engines | Graph-based collaborative filtering and content recommendation. |
-| Identity and Access Management | Model and query complex permission hierarchies and role relationships. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Amazon Neptune | AWS managed graph database with full TinkerPop and Gremlin compatibility. |
-| Azure Cosmos DB | Azure Cosmos DB Gremlin API for TinkerPop-compatible graph storage. |
-| JanusGraph | Distributed graph database with TinkerPop/Gremlin interface. |
-| Neo4j | Neo4j TinkerPop plugin for Gremlin traversal on Neo4j graph data. |
-| Apache Spark | SparkGraphComputer for OLAP graph analytics on Spark clusters. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-tinkerpop/](https://apis.io/providers/apache-tinkerpop/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache TinkerPop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-tinkerpop/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
